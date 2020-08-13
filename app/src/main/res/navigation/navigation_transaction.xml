@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_transaction"
+    app:startDestination="@id/fragmentRecipient">
+
+    <fragment
+        android:id="@+id/fragmentRecipient"
+        android:name="com.example.navigation_exercise.screen.FragmentRecipient"
+        android:label="fragment_recipient"
+        tools:layout="@layout/fragment_recipient" >
+        <action
+            android:id="@+id/action_fragmentRecipient_to_fragmentInputAmout"
+            app:destination="@id/fragmentInputAmout" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentInputAmout"
+        android:name="com.example.navigation_exercise.screen.FragmentInputAmout"
+        android:label="fragment_input_amout"
+        tools:layout="@layout/fragment_input_amout" >
+        <action
+            android:id="@+id/action_fragmentInputAmout_to_fragmentConfirmation"
+            app:destination="@id/fragmentConfirmation" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentConfirmation"
+        android:name="com.example.navigation_exercise.screen.FragmentConfirmation"
+        android:label="fragment_confirmation"
+        tools:layout="@layout/fragment_confirmation" />
+</navigation>
