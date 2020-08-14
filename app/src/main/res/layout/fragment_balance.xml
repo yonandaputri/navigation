@@ -32,9 +32,9 @@
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="56dp"
+                android:textSize="40dp"
                 android:textColor="@android:color/background_light"
-                android:text="300.00"/>
+                android:text="300.000"/>
 
         </LinearLayout>
 
