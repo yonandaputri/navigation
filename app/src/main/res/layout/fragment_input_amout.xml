@@ -33,7 +33,7 @@
                 android:id="@+id/name_receiver_transfer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="To : ?"
+                android:text="To : "
                 android:textSize="20dp"
                 android:layout_margin="5dp"/>
 
